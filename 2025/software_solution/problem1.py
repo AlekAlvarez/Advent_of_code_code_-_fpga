@@ -10,5 +10,5 @@ with open('problem1In.txt','r') as file:
             position+=100
         position=position%100
         if position==0:
-            track+=1
+            track+=1 
 print(track)
